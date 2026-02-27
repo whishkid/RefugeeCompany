@@ -1,0 +1,61 @@
+I have our history of proposals in this directory.  Please use these a guideline for making a new one.
+I now want to make a new proposal for a prospect. 
+Language: Dutch
+Prospect name, Merel Macedo
+Prospect company: A beautful mess. (a project by Refugee Company) (https://abeautifulmess.nl/)
+Product to build: Replacement for their Client tracking system.
+
+
+THe company: Check online for more details, but in one line, they help refugees find they way in our country, by providing them with work experience courses and other experiences
+Goal of the system:
+To efficiently track clients in there journey at a beutfil mess. And be able to report impact made through questionaires of before and after for the client 
+(person who escaped to the netherlands, although the companys name is refugee company they dont like to refer to the people as refugees)
+
+
+The system should keep track of:
+Users (users of the system and which role in the system they are allowed to do)
+Clients (refugees)
+Organizations (these are companies / contacts where we can either plan visits, of place a client in a vacancy)
+Vacancies (these are known open vacancies at organizations)
+Locations (community cafe, rest), Prestart, and restart are longer projects for a client where they are guided for months, 
+Events/Activities/Workshops (Single day events) and single day events typically take place at a community cafe location, or a company visit,but can also be with regard to the Projects
+Questionarie, each Project AND Activity can have a questionair, with multiple choice questions and open questions. For each question you can choose if it is to be asked on intake outtake or both (most questions should be both so we can track progress/impact)
+The questionaires need to be multilingual including RTL languages. THere should be AI assistance for translating the questionaires
+ClientPlacements (this is a succesful placement of a client at an organization, which can be in response to  a vacancy, but can also be a placement without a prior vacancy being known)
+ClientProjectParticipation The fact that a client participated in a project (can be multiple times)
+ClientProjectParticipationQuestionairSubmission (with answers)
+
+The system should be able to
+Create certificates of participation to an event/activity/project
+Be able to request SIgnatures for documents, (preferably with a flow that email is sent or QR code is scanned on phone and on phone they can draw their signature, and the document is signed)
+Used eg for the certificates, and other things i did not take note of sadly.
+Have a dashboard where the impact per refugee, and also aggregated can be seen with statitsticss of how many people were helped, and average improvement over certain questions, or categories of questions
+
+
+We will build the system on the following Stack;
+
+Hosting on Vercel
+Database on Neon
+Sveltekit
+Drizzle
+BetterAuth.
+
+The customer can be the customer itself (preferred) by us on Vercel / Neon. Expected monthly costs 50 euros. If they prefer they can host through us for the same price.
+We have many years of development experience and a proven track record in building greenfield systems of many scales.
+For this project we will use a combination of AI Assisted coding and manual coding where needed. We are very skilled at getting AI to do a large portion of the work and stepping in manually or steering to improve performance, usability and correctnes.
+Explain that our results with ai development overwhelm ourselves and we expect to deliver an unbelievable amount of functionality for the given budget.
+
+We expect to have an initial version for being able to discuss, and request customer steering within 6-8 weeks. Working 16 hours a week. Depending on how much is steering probably additional 6 weeks at 8 hours a week to finalize the system.
+
+We propose to work on an hourly basis charging our actual work at our tarif of 100 euros per hour.
+
+As we know they are nervous to invest and unsure of the outcome we are willing to give the following guarantee.
+SHould they choose not to proceed with the software within 3 months, we will only charge 5000 euros for effort done.
+
+Total expected cost (can be steered during development by planning less or more features as development goes.
+8 weeks 16 hours * 100 = 12800
+8 weeks 8 hours * 100 = 6400
+Total 19200
+
+First six months of maintenance is included.
+After that an SLA 1000 euro quarterly to be ready on call , includes performance optimizations and updates needed for newer versions of browsers, and guaranteed holding of hourly rate for new features. 
